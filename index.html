@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lesson 5</title>
+</head>
+<body>
+    <form action="">
+        <div class="card">
+
+            <div class="formItem">
+                <label for="firstname">Firstname</label>
+                <input required name="firstname" type="text" placeholder="Firstname">
+            </div>
+
+            <div class="formItem">
+                <label for="lastname">Lastname</label>
+                <input required name="lastname" type="text" placeholder="Lastname">
+            </div>
+
+            <div class="formItem">
+                <label for="email">Email</label>
+                <input required name="email" type="email" placeholder="Email">
+            </div>
+            
+            <div class="formItem">
+                <label for="password">Password</label>
+                <input required name="password" type="password" placeholder="Password">
+            </div>
+
+            <div class="gender">
+                <span> Select gender</span>
+                <div>
+                    <p>Male</p>
+                    <input required type="radio" name="gender" id="">
+                </div>
+                <div>
+                    <p>Female</p>
+                    <input type="radio" name="gender" id="">
+                </div>
+            </div>
+
+            <div class="workInfo">
+               <span>Employment Info</span> 
+               <div>
+                   <p>Student</p>
+                   <input type="checkbox" name="" id="">
+               </div>
+               <div>
+                   <p>Employeed</p>
+                   <input type="checkbox" name="" id="">
+               </div>
+               <div>
+                   <p>Unemployeed</p>
+                   <input type="checkbox" name="" id="">
+               </div>
+            </div>
+                
+            <div class="date">
+                <label for="dateInput">Select Date</label>
+                <input required name="dateInput" type="date" id="">    
+            </div>
+
+            <div class="file">
+                <label for="fileInput">Choose File</label>
+                <input required name="fileInput" type="file" accept=".pdf,.docx" id="">    
+            </div>
+            <button class="submitBtn">Register</button>
+        </div>
+    </form>
+</body>
+</html>
