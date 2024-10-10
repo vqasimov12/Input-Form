@@ -133,5 +133,6 @@ input:focus{
 
 .file input{
     color: #364656;
+    height: 30px;
 }
 
